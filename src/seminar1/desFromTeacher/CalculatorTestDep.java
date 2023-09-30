@@ -1,9 +1,7 @@
 package seminar1.desFromTeacher;
 
-import seminars.first.hw.decisionFromTeacher.Calculator;
-
-import static org.assertj.core.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 public class CalculatorTestDep {
 

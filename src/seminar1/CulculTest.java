@@ -3,11 +3,11 @@ package seminar1;
 import org.assertj.core.data.Offset;
 import org.assertj.core.data.Percentage;
 
-import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.util.Locale;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
 public class CulculTest {
     /**
      * Задание 1. ** В классе Calculator создайте метод calculateDiscount, который принимает
