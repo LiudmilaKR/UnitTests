@@ -20,5 +20,6 @@ public class Car extends Vehicle {
     public int getYearRelease() { return yearRelease; }
     public int getNumWheels() { return numWheels; }
     public int getSpeed() { return speed; }
-    public String toString() { return "This car is a “ + year + “ “ + make + “ “ + model + ";}
+    public String toString() { return "This car is a " + company + "-" + model + " " +
+            yearRelease + " year, produced by " + company; }
 }
